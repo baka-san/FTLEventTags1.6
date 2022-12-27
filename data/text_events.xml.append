@@ -163,7 +163,7 @@
 <text name="event_CIVILIAN_ASTEROIDS_BEACON_2_c4_choice">(Repair Missle) Send a Repair Missle to fix their Shields. [ -1 Missle, [ Hidden Federation Base Quest | -4 Hull, Med. Scrap & Weapon ] ]</text>
 <text name="event_CIVILIAN_ASTEROIDS_BEACON_2_c5_choice">(Teleporter) Offer to beam them aboard your ship. [ Crew Gain | [ HScrap | MScrap | +10 Hull ] ]</text>
 <text name="event_CIVILIAN_ASTEROIDS_BEACON_2_c6_choice">(Rock Armor) Shield their ship with yours and escort them out. [ Med. Scrap & Fuel ]</text>
-<text name="event_DISTRESS_INFESTATION_c1_choice">Send the crew to help! Giant alien spiders are no joke. [ Crew Loss Clone Bay Revive | High Resources ]</text>
+<text name="event_DISTRESS_INFESTATION_c1_choice">Send the crew to help! Giant alien spiders are no joke. [ Crew Loss (Clone Bay Revive) | High Resources ]</text>
 <text name="event_DISTRESS_INFESTATION_c2_choice">Leave them alone. [ Nothing Happens ]</text>
 <text name="event_DISTRESS_INFESTATION_c3_choice">(Anti-Personnel Missle) Send your battle Missle in to help. [ -1 Missle, Med. Resources ]</text>
 <text name="event_DISTRESS_INFESTATION_c4_choice">(Boarding Missle) Launch a Boarding Missle into the station. [ -1 Missle, Low Standard Rewards ]</text>
@@ -182,7 +182,7 @@
 <text name="event_DISTRESS_STATION_DISEASE_c4_choice">(Engi Crew) Send your Engi to calm down the infected. [ Med. Resources ]</text>
 <text name="event_DISTRESS_STATION_DISEASE_c5_choice">(Adv. Medbay) Use your Medbay to help synthesize a cure. [ Med. Resources or High Scrap & Weapon w/MedBots Blue Option ]</text>
 <text name="event_DISTRESS_STATION_DISEASE_c5_c2_choice">(Engi Med-bot Dispersal) Use the Nano med-bots to accelerate the dispersal of the cure. [ High Scrap & Weapon ]</text>
-<text name="event_DISTRESS_STATION_FIRE_c1_choice">Send your crew in a shuttle to help put out the fire. [ Crew Loss Clone Bay Revive, LScrap | HScrap ]</text>
+<text name="event_DISTRESS_STATION_FIRE_c1_choice">Send your crew in a shuttle to help put out the fire. [ Crew Loss (Clone Bay Revive), LScrap | HScrap ]</text>
 <text name="event_DISTRESS_STATION_FIRE_c2_choice">Dock and try to rescue the survivors. [ -4 Hull, LScrap | Crew Gain, LScrap ]</text>
 <text name="event_DISTRESS_STATION_FIRE_c3_choice">Leave. [ Nothing Happens ]</text>
 <text name="event_DISTRESS_STATION_FIRE_c4_choice">(Rock Crew) Send your Rock crew-member in. [ High Scrap & Augment ]</text>
@@ -524,7 +524,7 @@
 <text name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c2_choice">Listen to what he has to say. [ High Standard Rewards, High Scrap & Weapon Quest ]</text>
 <text name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c3_c1_choice">Accept. [ HScrap, Mantis Crew Gain w/Max Skills, High Scrap & Weapon Quest ]</text>
 <text name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c3_choice">(Adv. Medbay) Quickly teleport him back to the medbay. [ HScrap, Mantis Crew Gain w/Max Skills, High Scrap & Weapon Quest ]</text>
-<text name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c4_choice">(Adv. Clonebay) Quickly configure the Clonebay to save him. [ HScrap, Mantis Crew Gain w/Max Skills, High Scrap & Weapon Quest ]</text>
+<text name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_c4_choice">(Adv. Clone Bay) Quickly configure the Clone Bay to save him. [ HScrap, Mantis Crew Gain w/Max Skills, High Scrap & Weapon Quest ]</text>
 <text name="event_MANTIS_NAMED_THIEF_DEFEAT_c2_choice">(Teleporter) Quickly teleport additional crew and check for survivors. [ More ... ]</text>
 <text name="event_MANTIS_NAMED_THIEF_DEFEAT_c3_c1_choice">Let him die. [ High Standard Rewards ]</text>
 <text name="event_MANTIS_NAMED_THIEF_DEFEAT_c3_c2_choice">Dock and try to speak with him. [ High Standard Rewards, High Scrap & Weapon Quest ]</text>
@@ -845,7 +845,7 @@
 <text name="event_BATTLEFIELD_INVESTIGAGE_5_c2_choice">Leave the battlefield before other ships arrive. [ Nothing Happens ]</text>
 <text name="event_BATTLEFIELD_SURVIVOR_c1_choice">Make them comfortable for their final moments. [ Abadoth Quest ]</text>
 <text name="event_BATTLEFIELD_SURVIVOR_c2_choice">(Advanced Medbay) Get them into the medbay! [ Crew Gain ]</text>
-<text name="event_BATTLEFIELD_SURVIVOR_c3_choice">(Clonebay) Try to clone them before it's too late. [ Crew Gain ]</text>
+<text name="event_BATTLEFIELD_SURVIVOR_c3_choice">(Clone Bay) Try to clone them before it's too late. [ Crew Gain ]</text>
 <text name="event_NEBULA_BATTLEFIELD_c1_c1_choice">Assist the survivor. [ More... ]</text>
 <text name="event_NEBULA_BATTLEFIELD_c1_c2_choice">Leave the battlefield before other ships arrive. [ Nothing Happens ]</text>
 <text name="event_NEBULA_BATTLEFIELD_c1_choice">(Slug Crew) Ask your Slug crew to scan for survivors. [ Abadoth Quest or BOs for Crew Gain ]</text>
@@ -1037,9 +1037,9 @@
 <text name="event_CONTACT_PIRATE_SALESMAN_c4_choice">(Hacking) Disable their Weapon system before docking. [ LScrap ]</text>
 <text name="event_DOCK_DRONE_SALESMAN_c6_choice">Buy nothing. [ -3 Hull, Pirate Ship Fight Default Rewards ]</text>
 <text name="event_DOCK_DRONE_SALESMAN_c6_text">"Ah, I'Med. sorry to hear that! Pleasant journeys." Once back to the helm, a series of explosions rocks your ship. The pirate ship has powered its weapons! You receive a message, "You shouldn't waste people's time Captain!" [ -3 Hull, Pirate Ship Fight Default Rewards; Surrender (Chance, Min-Max, Offer): 0.5, 3-4, Random Resources; Escape (Chance, Min-Max, Timer): 0.5, 2-4 ]</text>
-<text name="event_EMPTY_STATION2_c1_choice">Move in to examine the station. [ Nothing Happens | x2 LScrap | [ LSCrap | CloneBay Blue Option [ x2 Crew Gain | 1 Boarder ] ] | 2 Boarders, Pirate Ship Fight Default Rewards | 2-4 Boarders, Enemy ASB ]</text>
+<text name="event_EMPTY_STATION2_c1_choice">Move in to examine the station. [ Nothing Happens | x2 LScrap | [ LSCrap | Clone Bay Blue Option [ x2 Crew Gain | 1 Boarder ] ] | 2 Boarders, Pirate Ship Fight Default Rewards | 2-4 Boarders, Enemy ASB ]</text>
 <text name="event_EMPTY_STATION2_c2_choice">Stay near the Beacon. [ Nothing Happens ]</text>
-<text name="event_EMPTY_STATION2_LIST_4_c1_choice">(Clonebay) Search for a surviving DNA bank. [ x2 Crew Gain | 1 Boarder ]</text>
+<text name="event_EMPTY_STATION2_LIST_4_c1_choice">(Clone Bay) Search for a surviving DNA bank. [ x2 Crew Gain | 1 Boarder ]</text>
 <text name="event_EMPTY_STATION2_LIST_4_c2_choice">Scrap the machinery. [ LScrap ]</text>
 <text name="event_EMPTY_STATION2_LIST_5_text">You dock with the station to take a look inside. However no sooner do you open the airlock than pirates burst in. Meanwhile scanners pick up a previously undetected pirate ship moving in to attack! [ Pirate Ship Fight Default Rewards; 2 Boarders; Surrender (Chance, Min-Max, Offer): 0.5, 3-4, Random Resources; Escape (Chance, Min-Max, Timer): 0.5, 2-4 ]</text>
 <text name="event_EMPTY_STATION2_LIST_6_text">You dock with the station to take a look inside. However no sooner do you open the airlock than pirates burst in. Meanwhile multiple warning signals go off on the bridge. The pirates have activated a remote planetary defense system and it's locking onto your ship! [ 2-4 Boarders, EnemyASB ]</text>
@@ -1073,7 +1073,7 @@
 <text name="event_QUEST_CONSTRUCTIONYARD_c3_c1_c2_choice">Our crew is not for sale. [ MScrap ]</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_1_c1_choice">Attack the Rebels to help them escape. [ Rebel Ship Fight Enemy ASB; Kill Reward: Med. Standard Rewards; Crew Kill Reward: High Standard Rewards, Double Reward: MScrap ]</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_1_c2_choice">Leave. [ Nothing Happens ]</text>
-<text name="event_QUEST_CONSTRUCTIONYARD_LIST_2_c1_choice">Move in to examine the station. [ Nothing Happens | x2 LScrap | [ LScrap | CloneBay Blue Option [ x2 Crew Gain | 1 Boarder ] ] | 2 Boarders, Pirate Ship Fight Default Rewards | 2-4 Boarders, Enemy ASB ]</text>
+<text name="event_QUEST_CONSTRUCTIONYARD_LIST_2_c1_choice">Move in to examine the station. [ Nothing Happens | x2 LScrap | [ LScrap | Clone Bay Blue Option [ x2 Crew Gain | 1 Boarder ] ] | 2 Boarders, Pirate Ship Fight Default Rewards | 2-4 Boarders, Enemy ASB ]</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_2_c2_choice">Stay near the Beacon. [ Nothing Happens ]</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_3_c1_choice">Give them the requested 4 fuel. [ MScrap, -4 Fuel ]</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_3_c2_choice">Give them 1 fuel. [ -1 Fuel ]</text>
