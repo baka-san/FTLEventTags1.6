@@ -6,7 +6,7 @@ Adds descriptions which are easier to read rather than using shorthand.
 [ Auto SF K: LStd, CK: MStd, DB: [ Crew+ | MStd | LStd | LScrapWeapon | +5 Hull | Nil ] ]
 
 // Fork (human readable)
-[ Auto Ship Fight Kill Reward: Low Standard Rewards, Crew Kill Reward: Med. Standard Rewards, Double Reward: [ Crew Gain | Med. Standard Rewards | Low Standard Rewards | Low Scrap & Weapon | +5 Hull | Nothing Happens ] ]
+[Auto Ship Fight Kill Reward: Low Standard, Crew Kill Reward: Med. Standard, Bonus Reward: [ Crew Gain | Med. Standard | Low Standard | Low Scrap & Weapon | +5 Hull | Nothing Happens ] ]
 ```
 
 Also removed changes unrelated to event hints, for example weapon effect (breach/stun/fire) chances and enemy ship layout potential. While the additions are useful, they are not related to events so aren't included in this fork.
