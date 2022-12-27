@@ -1,3 +1,6 @@
+# Fork changes
+Adds descriptions which are longer, but easier to read rather than shorthand.
+
 # FTLEventTags
 
 When is a Crew Kill no better than a Ship Kill? Which Blue Option gives the best reward? What are the chances of losing crew to Giant Alien Spiders?
